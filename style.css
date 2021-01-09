@@ -1,0 +1,119 @@
+/*Colors and Fonts*/
+
+body {
+	background-color: rgb(230, 230, 230); 
+	color: rgb(50, 50, 50); 
+	font-family: 'Lora', serif; 
+	font-size: 16px; 
+}
+
+h1, h2, h3 {font-family: 'Roboto', sans-serif; 
+}
+
+h1 {
+color: #D85B74;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+	color: #D85B74;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none; 
+	color: #BAC145;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a:hover {
+	color: #D85B74;
+}
+
+div { 
+background: white;
+border: 2px solid black;
+margin: 10px;
+ }
+
+/* Custom design (99% of your design) */
+
+.container { 
+	width: 700px;
+	margin: 40px auto;
+	border:1px solid lightgrey;
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	border:1px solid lightgrey;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #BAC145;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #D85B74;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding left: 0px;
+}
+
+.list-inline li {
+	display: inline; 
+	padding: 10px;
+}
+
+.list-inline i {
+font-size: 50px;
+color: rgb( 230, 230, 230);
+}
+
+.list-inline i:hover {
+font-size: 50px;
+color: rgb( 230, 230, 230);
+}
+
+/* Design adjustment using ID (1% design remaining)*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
